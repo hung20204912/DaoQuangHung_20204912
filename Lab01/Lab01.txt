@@ -1,0 +1,17 @@
+ex 6.1:
+- there will be a dialog box saying: "you've chosen : no"
+- I fixed it in another class named OptionCustom. you can check in the file i sent
+
+ex 6.2:
+done
+
+ex 6.3:
+done
+
+ex 6.4:
+done
+
+
+/*source of the first 2 exercises :
+Lab01\javabasics\src\javabasics
+*/
