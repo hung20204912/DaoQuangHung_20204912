@@ -1,0 +1,26 @@
+Yes, Java allows you to create multiple constructors for a class with different parameters. This is known as constructor overloading. In this case, you can create one constructor that takes the title as a parameter and another constructor that takes the category as a parameter. Both constructors can have different sets of parameters, and Java will automatically choose the appropriate constructor based on the parameters provided at the time of object creation.
+
+Here's an example of how you can create multiple constructors for a DVD class:
+
+public class DigitalVideoDisc {
+    private String title;
+    private String category;
+    private String director;
+    private int length;
+    private float cost;
+
+    public DigitalVideoDisc(String title) {
+        this.title = title;
+    }
+
+    public DigitalVideoDisc(String category, String director, int length, float cost) {
+        this.category = category;
+        this.director = director;
+        this.length = length;
+        this.cost = cost;
+    }
+
+    // other methods and constructors
+}
+
+In this example, the first constructor takes only the title parameter, while the second constructor takes the category, director, length, and cost parameters. Both constructors can be used to create a DVD object, depending on which parameters are provided.

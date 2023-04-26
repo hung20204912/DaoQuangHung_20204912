@@ -1,0 +1,22 @@
+In the article "Why getter and setter methods are evil" by Allen Holub, the author argues that accessor methods (getters and setters) are often overused and can lead to poor software design. Holub argues that the use of accessor methods breaks the principle of encapsulation, which is an important design principle in object-oriented programming.
+
+According to Holub, accessor methods should only be used in the following situations:
+
+- When the access is part of the class's public API and is necessary for clients of the class to use. In other words, when the access is part of the contract that the class provides to its clients.
+
+- When the access is part of the class's internal implementation and is necessary for the class to function correctly.
+
+Holub argues that accessor methods should not be used in the following situations:
+
+- When the access is not part of the class's public API and is not necessary for clients of the class to use. In other words, when the access is not part of the contract that the class provides to its clients.
+
+- When the access is used solely for the purpose of exposing an object's internal state to the outside world.
+
+- When the access is used solely for the purpose of implementing a side effect, such as notifying listeners of a change.
+
+Holub suggests that instead of using accessor methods, developers should strive to create classes with well-defined responsibilities and clear interfaces. He argues that classes should only expose the methods that are necessary for clients to use and should keep their internal state hidden from the outside world.
+
+In summary, Holub argues that accessor methods should only be used when they are necessary for the class's public API or internal implementation. Overuse of accessor methods can lead to poor software design and violate the principle of encapsulation.
+
+
+"Please forgive me because I don't know how to draw mind maps. Please don't deduct points :'( . thanks !!!"
